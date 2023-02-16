@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task_2_Musiienko</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="top-header">
+                <a href="/" class="main-logo">
+                    <img src="../img/logo.png" class="img" alt="logo"/>
+                </a>
+                <div class="search">
+                    <input type="text" placeholder="Пошук по сайту" />
+                </div>
+                <div class="contacts-header">
+                    <a href="tel:0 (800) 755 855" class="contacts-header__phone">0 (800) 755 855</a>
+                    <div class="contacts-header__message">
+                        Безкоштовно з усіх номерів України
+                    </div>
+                </div>
+                <div class="block-settings">
+                    <a href="javascript:void()" class="sing-in">
+                        <img src="../img/icon-user.svg" class="img" alt="icon sing-in"/>
+                        <span>Вхід</span>
+                    </a>
+                    <div class="change-laguage">
+                        <select name="select">
+                        <option value="value1">EN</option>
+                        <option value="value2" selected>UK</option>
+                        <option value="value3">GER</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header">
+                <nav class="nav-header">
+                    <button class="navbar-toggler js-navbar-toggler" type="button">
+                            <span class="line-navbar"></span>
+                            <span class="line-navbar"></span>
+                            <span class="line-navbar"></span>
+                      </button>
+                    <ul class="list-items js-list-items">
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link active">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Послуги
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Доставка
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Оплата
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Документи
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Новини
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Статті
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Співпраця
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Про Компанію
+                            </a>
+                        </li>
+                        <li class="list-items__item">
+                            <a href="javascript:void()" class="nav-link">
+                                Контакти
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-option">
+                    <a href="javascript:void()" class="header-option__wishlist" title="wish list">
+                        <img src="../img/icon-wishlist.svg" class="img" alt="icon wish list">
+                    </a>
+                    <a href="javascript:void()" class="header-option__cart" title="cart">
+                        <img src="../img/icon-cart.png" class="img" alt="icon wish list">
+                        <div class="count-cart">5</div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="main-banner p-b">
+                <div class="wrapper-bargain">
+                    <div class="bargain-block">
+                        <div class="bargain-block__img">
+                            <img src="../img/bargain_one.png" class="img" alt="bargain photo">
+                        </div>
+                        <div class="bargain-block__detail">
+                            <h2 class="title">Гірчиця зерна чорна</h2>
+                            <p class="price">Від <span class="sum">65</span> грн за кг</p>
+                            <button class="btn white">Замовити</button>
+                        </div>
+                    </div>
+                    <div class="bargain-block">
+                        <div class="bargain-block__img">
+                            <img src="../img/bargain_two.png" class="img" alt="bargain photo">
+                        </div>
+                        <div class="bargain-block__detail">
+                            <h1 class="title">Спеції оптом</h1>
+                            <p class="price">ОПТ від <span class="sum">25</span> кг</p>
+    
+                            <h2 class="title">СпецІЇ в роздріб</h2>
+                            <p class="price">Роздріб від <span class="sum">50</span> грам</p>
+    
+                            <div class="addition-inform">
+                                <h2 class="title">тов назва</h2>
+                                <p class="description">
+                                    Власний імпорт <br/> помол спецій <br/> виробнитво сумішей
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="bargain-block">
+                        <div class="bargain-block__img">
+                            <img src="../img/bargain_three.png" class="img" alt="bargain photo">
+                        </div>
+                        <div class="bargain-block__detail">
+                            <h2 class="title">Гірчиця зерна чорна</h2>
+                            <p class="price">Від <span class="sum">65</span> грн за кг</p>
+                            <button class="btn white">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wrapper-catalog p-b">
+                <h2 class="title-section">Каталог</h2>
+                <ul class="list-categories">
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_one.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Спеції</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_two.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Суміші спеції</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_three.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Харчові добавки</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_four.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Горіхи та сухофрукти</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_five.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Крупи</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_six.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Набори і подарунки</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_seven.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Кондитерські складові</h4>
+                        </a>
+                    </li>
+                    <li class="list-categories__item">
+                        <a href="">
+                            <div class="img">
+                                <img src="../img/category_eight.png" alt="Спеції">
+                            </div>
+                            <h4 class="category-name">Аксесуари</h4>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="wrapper-popular-products p-t p-b">
+                <h2 class="title-section">Популярні товари</h2>
+                <ul class="list-products">
+                    <li class="list-products__item">
+                        <a href="javascript:void()" class="product-link">
+                            <div class="product-img">
+                                <img src="../img/popular-product.png" class="img" alt="Гірчиця зерна чорна">
+                                <div class="status-product-popular">
+                                    Популярне
+                                </div>
+                            </div>
+                        </a>
+                        <div class="product-info">
+                            <a href="javascript:void()" class="product-link">
+                                <h5 class="product-info__name">Гірчиця зерна чорна</h5>
+                            </a>
+                            <div class="product-info__price">
+                                <div class="sum">
+                                    Від <span class="number">65</span> грн за кг
+                                </div>
+                            </div>
+                            <button class="btn btn-gray">Замовити</button>
+                        </div>
+                        <div class="add-wishlish">
+                            <img src="../img/icon-wishlist.svg" class="icon-wishlist" alt="wishlist">
+                        </div>
+                    </li>
+                    <li class="list-products__item">
+                        <a href="javascript:void()" class="product-link">
+                            <div class="product-img">
+                                <img src="../img/popular-product.png" class="img" alt="Гірчиця зерна чорна">
+                                <div class="status-product-popular">
+                                    Популярне
+                                </div>
+                            </div>
+                        </a>
+                        <div class="product-info">
+                            <a href="javascript:void()" class="product-link">
+                                <h5 class="product-info__name">Гірчиця зерна чорна</h5>
+                            </a>
+                            <div class="product-info__price">
+                                <div class="sum-discount">
+                                    <div class="discount">Від <span class="number">55</span> грн за кг</div>
+                                    <div class="no-discount">Від <span class="number">65</span> грн за кг</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-gray">Замовити</button>
+                        </div>
+                        <div class="add-wishlish">
+                            <img src="../img/icon-wishlist.svg" class="icon-wishlist" alt="wishlist">
+                        </div>
+                    </li>
+                    <li class="list-products__item">
+                        <a href="javascript:void()" class="product-link">
+                            <div class="product-img">
+                                <img src="../img/popular-product.png" class="img" alt="Гірчиця зерна чорна">
+                                <div class="status-product-popular">
+                                    Популярне
+                                </div>
+                            </div>
+                        </a>
+                        <div class="product-info">
+                            <a href="javascript:void()" class="product-link">
+                                <h5 class="product-info__name">Гірчиця зерна чорна</h5>
+                            </a>
+                            <div class="product-info__price">
+                                <div class="sum-discount">
+                                    <div class="discount">Від <span class="number">55</span> грн за кг</div>
+                                    <div class="no-discount">Від <span class="number">65</span> грн за кг</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-gray">Замовити</button>
+                        </div>
+                        <div class="add-wishlish">
+                            <img src="../img/icon-wishlist.svg" class="icon-wishlist" alt="wishlist">
+                        </div>
+                    </li>
+                    <li class="list-products__item">
+                        <a href="javascript:void()" class="product-link">
+                            <div class="product-img">
+                                <img src="../img/popular-product.png" class="img" alt="Гірчиця зерна чорна">
+                                <div class="status-product-popular">
+                                    Популярне
+                                </div>
+                            </div>
+                        </a>
+                        <div class="product-info">
+                            <a href="javascript:void()" class="product-link">
+                                <h5 class="product-info__name">Гірчиця зерна чорна</h5>
+                            </a>
+                            <div class="product-info__price">
+                                <div class="sum-discount">
+                                    <div class="discount">Від <span class="number">55</span> грн за кг</div>
+                                    <div class="no-discount">Від <span class="number">65</span> грн за кг</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-gray">Замовити</button>
+                        </div>
+                        <div class="add-wishlish">
+                            <img src="../img/icon-wishlist.svg" class="icon-wishlist" alt="wishlist">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="wrapper-our-advantages p-t p-b">
+                <h2 class="title-section">Наші переваги</h2>
+                <div class="list-advantages">
+                    <div class="list-advantages__item">
+                        <div class="icon-advantage">
+                            <img src="../img/icon-delivery.svg" alt="Наші переваги">
+                        </div>
+                        <div class="text-advantage">
+                            Відправка в день замовлення
+                        </div>
+                    </div>
+                    <div class="list-advantages__item">
+                        <div class="icon-advantage">
+                            <img src="../img/icon-quality.svg" alt="Наші переваги">
+                        </div>
+                        <div class="text-advantage">
+                            Стабільно висока якість
+                        </div>
+                    </div>
+                    <div class="list-advantages__item">
+                        <div class="icon-advantage">
+                            <img src="../img/icon-packaging.svg" alt="Наші переваги">
+                        </div>
+                        <div class="text-advantage">
+                            Індивідуальна упаковка
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wrapper-delivery p-t p-b">
+                <h2 class="title-section">Доставка</h2>
+                <div class="delivery">
+                    <div class="delivery__img">
+                        <img src="../img/delivery.png" alt="Доставка">
+                    </div>
+                    <div class="delivery__text">
+                        <p>
+                            Ванілін міститься в рослині з однойменною назвою — 
+                            ванілі, а також у картопляному лушпинні, тростинному 
+                            цукрі, перуанському бальзамі, малині, оливковій олії та 
+                            спирті-сирці. А у вівсянці та каві він з'являється після 
+                            термообробки.
+                        </p>
+                        <p>
+                            Ванілін міститься в рослині з однойменною назвою — 
+                            ванілі, а також у картопляному лушпинні, тростинному
+                            цукрі, перуанському бальзамі, малині, оливковій олії ...
+                        </p>
+                        <a href="javascript:void()" class="btn btn-detail">Детальніше</a>
+                    </div>
+                </div>
+            </section>
+            <section class="wrapper-own-import p-t p-b">
+                <div class="own-import">
+                    <h3 class="title">Власний імпорт, помол</h3>
+                    <P>
+                        Це псевдо- латинський текст використовується у веб - дизайні, типографіка, верстка, 
+                        і друку замість англійської підкреслити елементи дизайну над змістом. 
+                        Це також називається заповнювач ( або наповнювач) текст. Це зручний інструмент для макетів. 
+                        Це допомагає намітити візуальні елементи в документ або презентацію, наприклад, друкарня, шрифт, або макет. 
+                        Lorem Ipsum в основному частиною латинського тексту за класичною автор і філософа Цицерона.
+                        Це слова і букви були змінені додаванням або видаленням, так навмисно роблять його зміст безглуздо, 
+                        це не є справжньою, правильно чи зрозумілою Латинської більше. У той час як Lorem Ipsum все ще нагадує 
+                        класичну латину, він насправді не має ніякого значення. Як текст Цицерона не містить літери K, W, або Z,
+                        чужі латина, ці та інші часто вставляється випадково імітувати типографський.
+                    </P>
+                    <P>
+                        У професійному контексті це часто буває, що приватні або корпоративні клієнти Corder публікацію, 
+                        які будуть зроблені і представлені з фактичний зміст все ще не готовий. 
+                        Подумайте про прес- блозі, що наповнилися змістом погодинна в день буде жити. 
+                        Однак рецензенти схильні відволікатися на зрозумілій змісту, скажімо, випадкового тексту, 
+                        скопійованого з газети або в інтернеті., Швидше за все, зосередитися на тексті, не звертаючи уваги на макет 
+                        і його елементів. Крім того, випадковий текст ризикує бути ненавмисно гумористичні або образливим, 
+                        неприйнятним ризиком в корпоративному середовищі. 
+                    </P> 
+                    <p>
+                        Lorem Ipsum і його численні варіанти були використані з початку 1960 -х років, і цілком імовірно, 
+                        починаючи з шістнадцятого століття. Це зручний інструмент для макетів. Це допомагає намітити візуальні 
+                        елементи в документ або презентацію.Це слова і букви були змінені додаванням або видаленням, 
+                        так навмисно роблять його зміст безглуздо, це не є справжньою, правильно чи зрозумілою Латинської більше.
+                    </P>
+                    
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <ul class="footer-top__list-nav">
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Послуги
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Доставка 
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Оплата
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Документи
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Новини
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Статті
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Співпраця
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Про компанію
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-top__list-nav">
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Спеції
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Суміш спецій
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Харчові добавки
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Кодитерські складові
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Горіхи та сухофрукти
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Крупи
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Набори і подарунки
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Аксесуари
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-top__list-nav">
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Новинки
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Знижки
+                        </a>
+                    </li>
+                    <li class="list-nav-items">
+                        <a href="javascript:void()" class="list-nav-link">
+                            Популярне
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-top__contacts">
+                    <a href="/" class="main-logo">
+                        <img src="../img/logo.png" class="img" alt="логотип">
+                    </a>
+                    <ul class="phone-email">
+                        <li>
+                            <a href="tel:+380977102006" class="phone">+380977102006</a>
+                        </li>
+                        <li>
+                            <a href="tel:0(800)755855" class="phone">0(800)755855</a>
+                        </li>
+                        <li>
+                            <a href="mailto:info.mailbox90@gmail.com" class="email">info.mailbox90@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <a href="https://www.facebook.com/">
+                            <img src="./img/icon-facebook.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <img src="./img/icon-youtube.svg" alt="youtube">
+                        </a>
+                        <a href="viber://add?number=380967814971">
+                            <img src="./img/icon-viber.svg" alt="viber">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=15551234567">
+                            <img src="./img/icon-whatsapp.svg" alt="youtube">
+                        </a>
+                        <a href="https://telegram.me/bmusienko">
+                            <img src="./img/icon-telegram.svg" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrap-subscription">
+                    <div class="subscription">
+                        <h6 class="title-subscription">
+                            Підписатися на розсилку
+                        </h6>
+                        <form action="">
+                            <div class="input-block">
+                                <input type="text" placeholder="Введіть свій email"/>
+                                <button class="btn btn-gray">Підписатися</button>
+                            </div>
+                        </form>
+                        <div class="addition-question">
+                            <span>У Вас залишися питання?</span>
+                            <button class="btn btn-gray">Написати лист</button>
+                        </div>
+                    </div>
+                    <div class="use-site">
+                        <p>Як користуватись сайтом сайтом?</p>
+                        <p>Питання і відповіді</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2015 ТОВ "НАЗВА" 2013</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
